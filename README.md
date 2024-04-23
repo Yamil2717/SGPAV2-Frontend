@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# ApiStockVentas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ApiStockVentas es una API RESTful para gestionar una agenda de contactos. Esta API permite crear, leer, actualizar y eliminar contactos.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Gestión completa de Inventario (CRUD).
+- Implementado con ReactJS 18.2.0 y Typescript.
+
+## Instalación
+
+1. Clona este repositorio.
+2. Abre la solución en Visual Studio Code.
+3. Asegúrate de tener instalado ReactJS 18.2.0 y NPM 10.5.0.
+4. Copia y pega el .env.example para renombrar el .env.example y dejarlo solo como .env, en caso de que en tu local la url cambie, ya sea por el puerto o la ip, cambiarlo en el .env
+5. Ejecuta npm install y aguarda a que termine.
+6. En la carpeta del proyecto abre una terminal y ejecuta:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esto ejecutara la aplicación en modo Desarrollo.\
+Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Licencia
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MIT](https://choosealicense.com/licenses/mit/)

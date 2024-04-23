@@ -25,7 +25,7 @@ const Routes: Route[] = [
     {
         icon: <MdLibraryBooks size={54} color='#FFFBF5' />,
         name: "Registros",
-        path: "/logs"
+        path: "/history"
     },
 ];
 

@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Inventory from './pages/Inventory';
 import Sales from './pages/Sales';
-import Logs from './pages/Logs';
+import History from './pages/History';
 import Header from './components/Header';
 import { NotificationProvider } from './components/notification/NotificationContext';
+import NotFound from './components/NotFound';
 
 interface LayoutProps {
   children: ReactNode;
@@ -39,13 +40,14 @@ function App() {
                 </Layout>
               }
             />
-            <Route path="/logs"
+            <Route path="/history"
               element={
                 <Layout>
-                  <Logs />
+                  <History />
                 </Layout>
               }
             />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </Router>

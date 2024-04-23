@@ -1,7 +1,7 @@
 const Sales = () => {
     return (
-        <div>
-            Sales
+        <div className="container mx-auto py-8">
+            <p className="text-center text-white text-2xl">Quiero dormir, no hay más tiempo ni ganas :c</p>
         </div>
     )
 }

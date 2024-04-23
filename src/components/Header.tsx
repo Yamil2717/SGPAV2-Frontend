@@ -14,7 +14,7 @@ const Header: FC = () => {
                             <a href="/sales" className="hover:text-primary font-semibold transition-colors duration-200">Ventas</a>
                         </li>
                         <li>
-                            <a href="/logs" className="hover:text-primary font-semibold transition-colors duration-200">Registros</a>
+                            <a href="/history" className="hover:text-primary font-semibold transition-colors duration-200">Registros</a>
                         </li>
                     </ul>
                 </nav>
