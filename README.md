@@ -1,6 +1,6 @@
-# Frontend SGPA
+# Frontend SGPA V2
 
-Frontend SGPA es una API RESTful para gestionar una agenda de contactos. Esta API permite crear, leer, actualizar y eliminar contactos.
+Frontend SGPA V2 es un el frontend para gestionar un sistema básiuco de inventario. Está SPA permite crear, leer, actualizar y eliminar productos.
 
 ## Características
 
