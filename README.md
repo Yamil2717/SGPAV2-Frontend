@@ -1,6 +1,6 @@
-# ApiStockVentas
+# Frontend SGPA
 
-ApiStockVentas es una API RESTful para gestionar una agenda de contactos. Esta API permite crear, leer, actualizar y eliminar contactos.
+Frontend SGPA es una API RESTful para gestionar una agenda de contactos. Esta API permite crear, leer, actualizar y eliminar contactos.
 
 ## Características
 
